@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2015-06-02">
+    <creator>Dylan Gerard</creator>
+    <description>Time Graph Description</description>
+  </meta>
+  <graph defaultedgetype="directed" label="0" mode="static" timeformat="double">
+    <nodes>
+      <node id="1" label="1"/>
+      <node id="10" label="10"/>
+      <node id="11" label="11"/>
+      <node id="12" label="12"/>
+      <node id="13" label="13"/>
+      <node id="14" label="14"/>
+      <node id="15" label="15"/>
+      <node id="16" label="16"/>
+      <node id="17" label="17"/>
+      <node id="18" label="18"/>
+      <node id="19" label="19"/>
+      <node id="2" label="2"/>
+      <node id="20" label="20"/>
+      <node id="21" label="21"/>
+      <node id="22" label="22"/>
+      <node id="23" label="23"/>
+      <node id="24" label="24"/>
+      <node id="3" label="3"/>
+      <node id="4" label="4"/>
+      <node id="5" label="5"/>
+      <node id="6" label="6"/>
+      <node id="7" label="7"/>
+      <node id="8" label="8"/>
+      <node id="9" label="9"/>
+    </nodes>
+    <edges>
+      <edge id="11:10" source="11" target="10" weight="373.875"/>
+      <edge id="12:11" source="12" target="11" weight="136.727272727"/>
+      <edge id="13:12" source="13" target="12" weight="152.916666667"/>
+      <edge id="14:13" source="14" target="13" weight="95.0"/>
+      <edge id="15:3" source="15" target="3" weight="19.0"/>
+      <edge id="16:15" source="16" target="15" weight="18.6"/>
+      <edge id="17:16" source="17" target="16" weight="14.0"/>
+      <edge id="18:17" source="18" target="17" weight="33.5"/>
+      <edge id="19:18" source="19" target="18" weight="36.75"/>
+      <edge id="1:13" source="1" target="13" weight="111.666666667"/>
+      <edge id="1:14" source="1" target="14" weight="29.25"/>
+      <edge id="20:19" source="20" target="19" weight="339.333333333"/>
+      <edge id="20:21" source="20" target="21" weight="137.6"/>
+      <edge id="21:19" source="21" target="19" weight="43.0"/>
+      <edge id="2:1" source="2" target="1" weight="1176.85714286"/>
+      <edge id="3:1" source="3" target="1" weight="218.0"/>
+      <edge id="3:2" source="3" target="2" weight="387.947368421"/>
+      <edge id="4:20" source="4" target="20" weight="141.666666667"/>
+      <edge id="5:4" source="5" target="4" weight="39.125"/>
+      <edge id="6:4" source="6" target="4" weight="19.0"/>
+      <edge id="6:5" source="6" target="5" weight="79.2222222222"/>
+      <edge id="7:6" source="7" target="6" weight="223.2"/>
+      <edge id="8:7" source="8" target="7" weight="95.5384615385"/>
+      <edge id="9:8" source="9" target="8" weight="111.230769231"/>
+    </edges>
+  </graph>
+</gexf>

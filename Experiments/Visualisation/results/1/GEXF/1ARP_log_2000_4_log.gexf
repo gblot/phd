@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2016-02-12">
+    <creator>Dylan Gerard</creator>
+    <description>Time Graph Description</description>
+  </meta>
+  <graph defaultedgetype="directed" label="0" mode="static" timeformat="double">
+    <nodes>
+      <node id="0" label="C"/>
+      <node id="1" label="C#"/>
+      <node id="2" label="D"/>
+      <node id="3" label="D#"/>
+      <node id="4" label="E"/>
+      <node id="5" label="F"/>
+      <node id="6" label="F#"/>
+      <node id="7" label="G"/>
+      <node id="8" label="G#"/>
+      <node id="9" label="A"/>
+      <node id="10" label="A#"/>
+      <node id="11" label="B"/>
+    </nodes>
+    <edges>
+      <edge id="0:5" source="0" target="5" weight="192.0"/>
+      <edge id="0:7" source="0" target="7" weight="192.0"/>
+      <edge id="10:5" source="10" target="5" weight="252.631578947"/>
+      <edge id="10:7" source="10" target="7" weight="192.0"/>
+      <edge id="2:10" source="2" target="10" weight="192.0"/>
+      <edge id="2:5" source="2" target="5" weight="342.857142857"/>
+      <edge id="2:7" source="2" target="7" weight="192.0"/>
+      <edge id="2:9" source="2" target="9" weight="256.0"/>
+      <edge id="3:10" source="3" target="10" weight="211.2"/>
+      <edge id="5:0" source="5" target="0" weight="192.0"/>
+      <edge id="5:10" source="5" target="10" weight="192.0"/>
+      <edge id="5:2" source="5" target="2" weight="192.0"/>
+      <edge id="7:0" source="7" target="0" weight="192.0"/>
+      <edge id="7:10" source="7" target="10" weight="320.0"/>
+      <edge id="7:2" source="7" target="2" weight="246.857142857"/>
+      <edge id="7:3" source="7" target="3" weight="192.0"/>
+      <edge id="8:1" source="8" target="1" weight="336.0"/>
+      <edge id="9:2" source="9" target="2" weight="192.0"/>
+    </edges>
+  </graph>
+</gexf>

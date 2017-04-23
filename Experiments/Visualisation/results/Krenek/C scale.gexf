@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2016-02-12">
+    <creator>Dylan Gerard</creator>
+    <description>Time Graph Description</description>
+  </meta>
+  <graph defaultedgetype="directed" label="0" mode="static" timeformat="double">
+    <nodes>
+      <node id="00" label="C"/>
+      <node id="01" label="Db"/>
+      <node id="02" label="D"/>
+      <node id="03" label="Eb"/>
+      <node id="04" label="E"/>
+      <node id="05" label="F"/>
+      <node id="06" label="Gb"/>
+      <node id="07" label="G"/>
+      <node id="08" label="Ab"/>
+      <node id="09" label="A"/>
+      <node id="10" label="Bb"/>
+      <node id="11" label="B"/>
+    </nodes>
+    <edges>
+      <edge id="0:2" source="00" target="02" weight="240.0"/>
+      <edge id="2:4" source="02" target="04" weight="240.0"/>
+      <edge id="4:5" source="04" target="05" weight="240.0"/>
+      <edge id="5:7" source="05" target="07" weight="240.0"/>
+      <edge id="7:9" source="07" target="09" weight="240.0"/>
+      <edge id="9:11" source="09" target="11" weight="240.0"/>
+      <edge id="11:0" source="11" target="00" weight="240.0"/>
+    </edges>
+  </graph>
+</gexf>
