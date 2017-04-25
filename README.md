@@ -1,4 +1,4 @@
-Conceptions, Browsing and Automation of Digital Knowledge 
+Design, Browsing and Automation of Digital Knowledge and Traces
 ===================
 
 Through my research, I have been searching a way to conceptualize digital knowledge in an innovative way.  That led me to work on a Rhythm Network, that is a fundamental structure, connecting objects using temporal metrics. Here, one can find all ressources related to my PhD: a Rhythm Network application (build and browse), developped in Python/rpy2 and all materials from the 5 experiments supporting the solution.  
@@ -37,7 +37,7 @@ This work deals with user behaviors in an E-learning system. Processing Moodle l
 
 > <i class="icon-folder-open"></i> Experiments/RhytmOfKnowledge
 
-> - Original dataset is provided by a french educational institution called [GRETA Champagnne-Ardennes](http://moodgreta.eu/Site_GIP_FC), extracted from Moodle courses. It is composed with 3 files (610.csv, 614.csv and 809.csv). All data have been anonymized. More details about these data are available in the related article.
+> - Original dataset is provided by a french educational institution called [GRETA Champagne-Ardennes](http://moodgreta.eu/Site_GIP_FC), extracted from Moodle courses. It is composed with 3 files (610.csv, 614.csv and 809.csv). All data have been anonymized. More details about these data are available in the related article.
 > - Results are various GEXF graph files structuring learners trajectories and learning rhythms. 
 
 ----------
@@ -45,11 +45,11 @@ This work deals with user behaviors in an E-learning system. Processing Moodle l
 
 On the Internet, are we our own master? Is the Web an enemy of the free will? Nowadays, everyone possesses a tool giving an immediate and infinite access to a growing set of items. But, browsing these unlimited resources happens to be too complicated for a human brain. To help us in our choices, we rely on features such as recommender engines, which try to understand our profile and suggest us directions on this basis. These are machine learning tools relying on user activities. But human brain is subject to natural biases, such as confirmation bias and information cascades. We associate to our natural cognition, an artificial cognition, which is composed with a form of our self biased cognition. These two systems coexist and apply mutual influences. Here we are, shipping in an infinite loop toward an iterative behavior shift, with some foreseen dangers: conformism, plural ignorance and extremism.
 
-> <i class="icon-folder-open"></i> Experiments/RecommendeConfirmation
+> <i class="icon-folder-open"></i> Experiments/RecommenderConfirmation
 
 > - Original dataset is available here: https://www.kaggle.com/c/outbrain-click-prediction
 > - Each step produces an output file. If you wish to go through the whole process, please follow the exact order listed bellow. The full process is explained in my PhD manuscript. Don’t forget to set your input/output folder at the top of each script.
->> - <i class="icon-file"> datasetSample.cs </i>: get a sample of the dataset. Produces nodes.csv, edges.csv and categories.csv
+> - <i class="icon-file"> datasetSample.cs </i>: get a sample of the dataset. Produces nodes.csv, edges.csv and categories.csv
 > - <i class="icon-file"> recommandationEngines.cs </i>: get recommandations. Produces similarities/Sim_XX.csv, where XX is the recommender surname (AA = Adamic/Adar, CN = Common Neighbors, COS = Cosine-Based and COR = Correlation-Based)
 > - <i class="icon-file"> confirmationSimilarities.cs </i>: get recommandations by categories. Produces similarities/CatSim_XX.csv 
 > - <i class="icon-file"> confirmationResults.cs </i>: get confirmation results. Produces confirmation/finalStats.csv
